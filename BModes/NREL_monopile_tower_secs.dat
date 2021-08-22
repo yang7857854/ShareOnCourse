@@ -1,0 +1,27 @@
+Tower	section	properties										
+11	n_secs:	number	of	tower	sections	at	which	properties	are	specified	(-)	
+												
+sec_loc	str_tw	tw_iner	mass_den	flp_iner	edge_iner	flp_stff	edge_stff	tor_stff	axial_stff	cg_offst	sc_offst	tc_offst
+(-)	(deg)	(deg)	(kg/m)	(kg-m)	(kg-m)	(Nm^2)	(Nm^2)	(Nm^2)	(N)	(m)	(m)	(m)
+0.00E+00	0	0	4.3065E+03	1.9206E+04	1.9206E+04	4.7449E+11	4.7449E+11	3.6499E+11	1.0640E+11	0	0	0
+1.00E-01	0	0	4.0304E+03	1.6720E+04	1.6720E+04	4.1308E+11	4.1308E+11	3.1775E+11	9.9576E+10	0	0	0
+2.00E-01	0	0	3.7635E+03	1.4484E+04	1.4484E+04	3.5783E+11	3.5783E+11	2.7525E+11	9.2979E+10	0	0	0
+3.00E-01	0	0	3.5055E+03	1.2479E+04	1.2479E+04	3.0830E+11	3.0830E+11	2.3715E+11	8.6607E+10	0	0	0
+4.00E-01	0	0	3.2567E+03	1.0689E+04	1.0689E+04	2.6408E+11	2.6408E+11	2.0314E+11	8.0459E+10	0	0	0
+5.00E-01	0	0	3.0169E+03	9.0990E+03	9.0990E+03	2.2480E+11	2.2480E+11	1.7292E+11	7.4534E+10	0	0	0
+6.00E-01	0	0	2.7861E+03	7.6929E+03	7.6929E+03	1.9006E+11	1.9006E+11	1.4620E+11	6.8834E+10	0	0	0
+7.00E-01	0	0	2.5645E+03	6.4555E+03	6.4555E+03	1.5949E+11	1.5949E+11	1.2268E+11	6.3357E+10	0	0	0
+8.00E-01	0	0	2.3519E+03	5.3740E+03	5.3740E+03	1.3277E+11	1.3277E+11	1.0213E+11	5.8105E+10	0	0	0
+9.00E-01	0	0	2.1483E+03	4.4338E+03	4.4338E+03	1.0954E+11	1.0954E+11	8.4262E+10	5.3077E+10	0	0	0
+1.00E+00	0	0	1.9539E+03	3.6222E+03	3.6222E+03	8.9490E+10	8.9490E+10	6.8838E+10	4.8272E+10	0	0	0
+
+
+
+**Note: If the above data represents TOWER properties, the following are overwritten:
+  str_tw is set to zero
+  tw_iner is set to zero
+  cg_offst is set to zero
+  sc_offst is set to zero
+  tc_offst is set to zero
+  edge_iner is set equal to flp_iner
+  edge_stff is set equal to flp_stff

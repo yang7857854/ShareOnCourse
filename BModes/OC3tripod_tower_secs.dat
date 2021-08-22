@@ -1,0 +1,36 @@
+Tower	section	properties										
+17	n_secs:	number	of	tower	sections	at	which	properties	are	specified	(-)	
+												
+sec_loc	str_tw	tw_iner	mass_den	flp_iner	edge_iner	flp_stff	edge_stff	tor_stff	axial_stff	cg_offst	sc_offst	tc_offst
+(-)	(deg)	(deg)	(kg/m)	(kg-m)	(kg-m)	(Nm^2)	(Nm^2)	(Nm^2)	(N)	(m)	(m)	(m)
+0.00E+00	0	0	6.97E+03	3.01E+04	3.01E+04	7.44E+11	7.44E+11	5.72E+11	1.72E+11	0	0	0
+4.51E-02	0	0	6.97E+03	3.01E+04	3.01E+04	7.44E+11	7.44E+11	5.72E+11	1.72E+11	0	0	0
+1.03E-01	0	0	4.47E+03	1.95E+04	1.95E+04	4.81E+11	4.81E+11	3.70E+11	1.11E+11	0	0	0
+1.61E-01	0	0	4.39E+03	1.90E+04	1.90E+04	4.70E+11	4.70E+11	3.61E+11	1.08E+11	0	0	0
+2.26E-01	0	0	4.30E+03	1.85E+04	1.85E+04	4.58E+11	4.58E+11	3.52E+11	1.06E+11	0	0	0
+2.90E-01	0	0	4.21E+03	1.80E+04	1.80E+04	4.46E+11	4.46E+11	3.43E+11	1.04E+11	0	0	0
+3.54E-01	0	0	4.12E+03	1.76E+04	1.76E+04	4.34E+11	4.34E+11	3.34E+11	1.02E+11	0	0	0
+4.19E-01	0	0	4.03E+03	1.71E+04	1.71E+04	4.23E+11	4.23E+11	3.25E+11	9.96E+10	0	0	0
+4.83E-01	0	0	3.94E+03	1.66E+04	1.66E+04	4.11E+11	4.11E+11	3.16E+11	9.74E+10	0	0	0
+5.48E-01	0	0	3.85E+03	1.62E+04	1.62E+04	4.00E+11	4.00E+11	3.08E+11	9.52E+10	0	0	0
+6.12E-01	0	0	3.76E+03	1.57E+04	1.57E+04	3.89E+11	3.89E+11	2.99E+11	9.30E+10	0	0	0
+6.77E-01	0	0	3.68E+03	1.53E+04	1.53E+04	3.78E+11	3.78E+11	2.91E+11	9.08E+10	0	0	0
+7.41E-01	0	0	3.59E+03	1.49E+04	1.49E+04	3.67E+11	3.67E+11	2.82E+11	8.86E+10	0	0	0
+8.05E-01	0	0	3.50E+03	1.44E+04	1.44E+04	3.56E+11	3.56E+11	2.74E+11	8.65E+10	0	0	0
+8.70E-01	0	0	3.41E+03	1.40E+04	1.40E+04	3.46E+11	3.46E+11	2.66E+11	8.43E+10	0	0	0
+9.34E-01	0	0	3.33E+03	1.36E+04	1.36E+04	3.35E+11	3.35E+11	2.58E+11	8.22E+10	0	0	0
+1.00E+00	0	0	3.24E+03	1.32E+04	1.32E+04	3.25E+11	3.25E+11	2.50E+11	8.01E+10	0	0	0
+
+
+
+
+
+
+**Note: If the above data represents TOWER properties, the following are overwritten:
+  str_tw is set to zero
+  tw_iner is set to zero
+  cg_offst is set to zero
+  sc_offst is set to zero
+  tc_offst is set to zero
+  edge_iner is set equal to flp_iner
+  edge_stff is set equal to flp_stff
