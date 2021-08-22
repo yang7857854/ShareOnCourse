@@ -1,0 +1,8 @@
+! This the input for TransAQWA2FAST_QTF that is developed by Asso.Prof Yang Yang in Ningbo University for transfering the AQWA QTF to the format of WAMIT
+"COREWIND.QTF"		- AQWAInputQTF		- Filename of AQWA QTF including the suffix
+9.80665				- GravAcce			- Gravity acceleration
+1025				- WaterDen			- Water density
+False				- FlagCnvrtAll    	- Flag of one direction. True: convert all data within the file. False: only convert the data in one wave direction and then give the direction below
+0.0					- TrgtWvDir			- Target wave direction	
+
+ 

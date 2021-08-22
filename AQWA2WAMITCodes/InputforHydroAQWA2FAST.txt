@@ -1,0 +1,3 @@
+! This is the input for HydroAQWA2FAST
+"CoreWind_NoC.AH1"		- AQWAInFile		- File name of the AQWA output (.AH1) 
+"CoreWind_NoC"		- OutBsName		- The base name of the output files (OutBsName.hst, OutBsName.1 and OutBsName.3 will be output)
