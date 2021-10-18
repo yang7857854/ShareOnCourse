@@ -26,7 +26,7 @@ TckSecs = interp1(TwrSecsDT(:,1),TwrSecsDT(:,3),HtFrac,'pchip');
 
 %2: Tower properties
 Area = 0.25*pi*(DiaSecs.^2 - (DiaSecs-2*TckSecs*0.001).^2);
-AreaInertia = 1.0/16.0*pi*(DiaSecs.^4 - (DiaSecs-2*TckSecs*0.001).^4);
+AreaInertia = 1.0/64.0*pi*(DiaSecs.^4 - (DiaSecs-2*TckSecs*0.001).^4);
 PolarInertia = 2.0 * AreaInertia;
 MassDenSecs = Density * Area;
 TwrFAStff = YoungsModulus * AreaInertia;
